@@ -1,0 +1,92 @@
+/*新建样式*/
+.mainfont {
+	font-size: 14px;
+	color: #333333;
+}
+/*修改原标签*/
+a.href:link {
+	font-family: "宋体", "新宋体", "华文中宋";
+	line-height: 18px;
+	color: #0000FF;
+	text-decoration: none;
+}
+a.href:visited {
+	font-family: "宋体", "新宋体", "华文中宋";
+	line-height: 18px;
+	color: #FF00FF;
+	text-decoration: none;
+}
+a.href:hover {
+	font-family: "宋体", "新宋体", "华文中宋";
+	line-height: 18px;
+	color: #FF0000;
+	text-decoration: underline;
+}
+a.href:active {
+	font-family: "宋体", "新宋体", "华文中宋";
+	line-height: 18px;
+	color: #FF0000;
+}
+
+
+ul {
+	list-style-position: outside;
+	list-style-type: circle;
+}
+input {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #FF0033;
+	border: 1px solid #FFCC00;
+}
+textarea {
+	font-family: "宋体";
+	font-size: 12px;
+	filter: Alpha(Opacity=100, FinishOpacity=20, Style=1, StartX=0, StartY=0, FinishX=300, FinishY=300);
+	color: #FF0033;
+	border: 1px solid #FFCC00;
+}
+/*容器*/
+#top {
+	width:948px;
+}
+#main {
+	width: 695px;
+	float: left;
+	text-align: left;
+	font-size: 14px;
+	border-right-width: 0px;
+	border-right-style: solid;
+	border-right-color: #FF9900;
+}
+
+#right {
+	float: right;
+	width: 250px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FF9900;
+	height: 100%;
+}
+#bottom {
+	clear: both;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FF9900;
+}
+#container {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;	
+/*	height: 100%;
+*/}
+#text1,#text2,#text3  {
+	color: #333333;
+	float:left;
+}
+#location {
+	height: 24px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF9900;
+	border-bottom-width: 1px;
+}
