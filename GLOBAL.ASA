@@ -1,0 +1,15 @@
+<SCRIPT LANGUAGE="VBScript" RUNAT="Server">
+
+Dim objConnection
+
+Sub Session_OnStart
+
+	On Error Resume Next
+	Err.Clear ()
+
+	Session.Timeout = 7200
+
+End Sub
+
+
+</SCRIPT>
